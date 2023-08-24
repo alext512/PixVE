@@ -1,2 +1,1 @@
-# PixVE
-Pixel Video Editor
+# Pixel_Video_Editor

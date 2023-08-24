@@ -1,0 +1,13 @@
+		# TODO: Handle error image (currently, the basic clip will still be created even if invalid image selected)
+		
+		# Spritesheets: Currently the spritesheets supported need to be a single row of sprites (might change later).
+		Because of that, only the x dimension of BasicClip matters (the y is ignored).
+		ALSO: The x dimension of image should be divisible by the x dimension of the BasicClip (might change this later).
+
+
+Reordering framelayer without selecting complexclip?
+
+
+The above todos do not seem important. See below.
+
+IMPORTANT: in func contruct_frame_layer_table_clip(frames, layers, clip): Basic clips should not have popup menus for doing stuff such as reordering, choosing offset etc.
